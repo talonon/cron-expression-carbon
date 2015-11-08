@@ -4,7 +4,7 @@ use Cron\CronExpression as CronExpressionBase;
 
 /**
  * @author Andy Muth <andy@griffonco.com>
- * @method array|Carbon[] getMultipleRunDates(int $total, string $currentTime = 'now', bool $invert = false, bool $allowCurrentDate = false)
+ * @method array|Carbon[] getMultipleRunDates( $total,  $currentTime = 'now',  $invert = false,  $allowCurrentDate = false)
  */
 class CronExpression extends CronExpressionBase {
   /**

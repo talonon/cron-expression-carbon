@@ -1,5 +1,5 @@
 {
-    "name": "Talonon/cron-expression-carbon",
+    "name": "talonon/cron-expression-carbon",
     "type": "library",
     "description": "Mashup between cron-expression (https://github.com/mtdowling/cron-expression) and carbon (https://github.com/briannesbitt/carbon) for Laravel 5",
     "keywords": ["cron", "schedule"],
@@ -18,7 +18,7 @@
         "phpunit/phpunit": "4.*"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Talonon\\Cron": "src/"
         }
     }
