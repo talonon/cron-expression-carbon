@@ -1,0 +1,25 @@
+{
+    "name": "Talonon/cron-expression-carbon",
+    "type": "library",
+    "description": "Mashup between cron-expression (https://github.com/mtdowling/cron-expression) and carbon (https://github.com/briannesbitt/carbon) for Laravel 5",
+    "keywords": ["cron", "schedule"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Andy Muth",
+        "email": "andy@griffonco.com",
+        "homepage": "https://github.com/Talonon"
+    }],
+    "require": {
+        "php": ">=5.6",
+        "mtdowling/cron-expression": "^1.0",
+        "nesbot/carbon": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Talonon\\Cron": "src/"
+        }
+    }
+}
