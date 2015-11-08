@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Talonon\\Cron": "src/"
+            "Talonon\\Cron\\": "src/"
         }
     }
 }
